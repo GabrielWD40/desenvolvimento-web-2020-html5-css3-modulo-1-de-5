@@ -1,0 +1,15 @@
+	
+   Os formatos de arquivo que usamos em site são jpeg e png. Há outros tipos também, mas nem sempre usamos eles. É o caso do GIF, TIF, SVG....
+
+   Basicamente, uma imagem é um conjunto de pontos.
+   O formato JPEG foi criado em 1983, ele compacta uma imagem para que ela não fique muito pesada.
+	Ex: quero uma foto grande de background.
+	
+   Já o PNG foi criado pela WWW, era utilizado para substituir o formato gif. Ele também é compactado mas não tanto quanto o JEPG, sua vantagem principal é permissão da transparência.
+	Ex: Imagem que vai ficar flutuando e será necessário ver o fundo de trás dela.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+   A qualidade do PNG sempre será melhor que o JPEG, isso porque a compactação é menor.	
+
+	

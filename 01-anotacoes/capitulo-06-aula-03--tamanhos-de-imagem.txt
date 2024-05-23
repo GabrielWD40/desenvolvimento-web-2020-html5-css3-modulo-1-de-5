@@ -1,0 +1,6 @@
+
+	Em sites, o professor recomenda um tamanho máximo de 1500 de largura.
+
+	O professor usou o gimp para fazer essas alterações, vá em imagem e clique na correntinha, depois disso redimensione para a largura que você quer.
+
+Os arquivos grandes deixam o seu site mais lento, sempre faça a redimensão do seu arquivo.

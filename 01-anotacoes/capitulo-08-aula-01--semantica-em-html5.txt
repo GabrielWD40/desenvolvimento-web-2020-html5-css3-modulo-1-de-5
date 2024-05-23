@@ -1,0 +1,16 @@
+Nessa aual falamos sobre semântica do HTML, ou seja, o sentido de usar uma tag.
+
+Vimos a diferença entre sentido e forma. 
+O sentido seria o por que daquilo, já a forma seria como é mostrado, seria mais visual.
+
+No HTML 5 algumas tags ficaram obsoletas porque já não faziam sentido e sim, formas. 
+Por isso, é  importante pesquisar sempre no site da "www.w3.org" as tags obsoletas.
+
+
+No exemplo da aula vimos uma tag nova, chamada de ADDRESS, que é destinada a endereços. 
+Ou seja, o sentido dela é para ser usada quando informamos um endereço.
+
+HTML se forma em semântica.
+
+
+As tags em vermelho são tags obsoletas, NÃO USE! NÃO USE TAGS OBSOLETAS!

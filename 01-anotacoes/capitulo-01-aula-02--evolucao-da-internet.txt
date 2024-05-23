@@ -1,0 +1,54 @@
+A internt surgiu na Gerra Fria, para cumprir objetivos de comunicação e troca de dados nos Estados Unidos.
+
+Tudo começou quando a Rússia lançou o Sputinik na atmosfera e os Estados Unidos achou que aquilo fosse algo para espioná-los. 
+Diante disso, o então presidente da época criou uma agência que seria capaz de desenvolver tecnologias de guerra, a 'DARPA'.
+
+A DARPA existe até hoje, e cria armas de guerra. 
+
+Mas o problema que a DARPA resolveu foi o de comunicação e backup de dados, foi então que eles criaram uma pequena rede chamada de ARPANET, inicialmente com 4 pontos.
+
+Os pontos eram em: 
+    Califórnia 
+    Stanford
+    Centro de matemática Los Angeles
+    Base militar de IOTÁ
+
+Mas o problema era que os computadores eram totalmente diferentes uns dos outros, eles não se conversavam. Poir isso, a galera da faculdade da Califórnia criou um protocolo chamado de NCP (Network Control Protocol → protocolo de controle de rede). Que falava uma linguagem única que todas as máquinas entendiam. Mas o NCP travava a rede porque enquanto uma comunicação não fosse finalizada, não era possível realizar mais nenhuma.
+
+Mais tarde, em 1972, foram criados mais dois protocolos que depois foram unidos.
+    Bob  Kahn → Criou o protocolo chamado de (Transfer Control Protocol - o FAMOSO TCP).
+        Mas esse protocolo tinha um problema, ele não conseguia identificar os vários pontos.
+
+
+    Vint Cerf → Esse cara resolveu o problema do protocolo do Bob, que era não conseguir identificar as máquinas. Ele criou o protoclo identiicação de máquinas, o Internetwork Protocol (o FAMOSO IP).
+
+    Juntando esses dois trabalhos, temos o TCP/IP.
+
+A partir daí a rede foi crescendo e crescendo até chegar num ponto que os militares não queriam mais gerenciar aquilo. Aí separaram a ARPANET em três categorias:
+
+
+MILNET → Rede destinada aos militares. 
+NFSNET (Nacional science fundadion) → Rede cientifíca das Universidades.
+Comerciais → Redes para empresas.
+
+A sigla internt significa interconectioN Networking (Conenção interncontinental.) É UM CONJUNTO DE VÁRIAS REDES. 
+
+
+Mas e como funciona essa comunicação entre máquinas:
+
+PC A ----------------------------------- PC B
+
+O protocolo TCP/IP fragmenta o arquivo que o PC A quer em pequenos pacotes e enviar ao Cliente (requisitante do arquivo) em fora de forma e por diversas rotas e em tempos diferentes. Os dois lados tem TCP e por isso, o TCP do lado do cliente será o responsável por montar o arquivo corretamente.
+
+
+
+A Internet antiga não tinha nada de bonito, era tudo verde e preto. Era meio que o prompt de comando.
+
+
+Maaaas, em 1993, em Genebra, Tim Berners Lee criou o protocolo HTTP e o HTML:
+
+www World Wide Web → Internet de alcance global. É uma subrede especializada em HTTP.
+
+HTTP → Hyper text protocol
+
+ 

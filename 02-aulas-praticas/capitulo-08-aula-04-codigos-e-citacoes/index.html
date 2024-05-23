@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Outras Formatação de texto</title>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Código fonte:</h2>
+    <p>O comando <strong><code>document.getElementById('teste')</code></strong> é escrito em linguagem JavaScript.</p>   
+    <p>Repare que nós deixamos o trecho acima com uma fonte mono espaçada, isso é, com espaçamentos todos iguais.</p>
+    <p>Nós podemos fazer isso usando a tag <strong>&lt;code&gt; &lt;/code&gt;</strong></p>
+    <strong><p>É importante lembrar que a tag &lt;code&gt; &lt;/code&gt; não identa o seu código.</p></strong>
+    <br>
+    <p>Identando um trecho de código com a tag &lt;pre&gt; &lt;/pre&gt;</p>
+    <p>ANTES DE IDENTAR: </p>
+    <code>
+        num = int(input("Digite um número: "))
+        if numero % 2 == 0:
+            printf(f"O número {num} é PAR!")
+        else:
+            printf(f"O número {num} é ÍMPAR!")
+        printf("")
+    </code>
+    <br>
+    <p>Depois de identar: </p>
+    <pre>
+        <code>
+        num = int(input("Digite um número: "))
+        if numero % 2 == 0:
+            printf(f"O número {num} é PAR!")
+        else:
+            printf(f"O número {num} é ÍMPAR!")
+        printf("")
+        </code>
+    </pre>
+    <strong><p>OBS: A tag &lt;pre&gt; &lt;/pre&gt; leva em consideração os espaços dados dentro da IDE de desenvolvimento.</p></strong>
+    <br>
+    <hr>
+
+    <h2>CITAÇÕES: </h2>
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q></p>
+    <p><strong>A tag &lt;q&gt; &lt;q&gt;</strong> é quote que traduzido, significa citação. <strong>Usamos essa tag para quando vamos usar uma citação.</strong> A citação fica na mesma linha que o parágrafo.</p>
+    <br>
+    <hr>
+
+    <h2>CITAÇÕES COMPLETAS</h2>
+    <blockquote cite="link de onde você tirou essa referência.">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias quasi id minima? Doloribus, veritatis possimus? Fugiat repellat atque corrupti eum assumenda eos mollitia, modi libero suscipit, repellendus soluta quam ratione! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo numquam magni facilis quisquam dolores reprehenderit, beatae illum magnam mollitia enim non alias velit praesentium similique minus modi sint expedita aliquid?
+    </blockquote>
+    <p>A citação completa faz uma quebra de linha e uma identação automaticamente. <br>
+        Para usar ela use a <strong>tag &lt;blockquote&gt; &lt;/blockquote&gt;</strong>, use o campo <strong>&lt;cite=""&gt;</strong> para deixar a referência de onde vc pegou a citação.</p>
+    <br>
+    <hr>
+
+    <h2>ABREVIAÇÕES: </h2>
+    <p>Nós podemos dizer as pessoas o que significa cada abreviação usada na nossa página, por exemplo:</p>
+    <p><abbr title="Hypertext Markup Language">HTML</abbr></p>
+    <p><abbr title="Cascading Style Sheets">CSS</abbr></p>
+    <p>Passe o mouse por cima e veja os significados de cada sigla.</p>
+    <p>Quando quisermos usar as abreviações, podemos usar a <strong>tag &lt;abbr&gt; &lt;abbr&gt;</strong>. Ela serve para far um efeito de over com o significado daquela abreviação!</p>
+    <br>
+    <hr>
+
+    <h2>TEXTO INVERTIDO:</h2>
+    <p>Há uma <strong>tag &lt;bdo&gt; &lt;/bdo&gt;</strong> que serve para inverter o texto da direta para a esquerda e vice versa.</p>
+    <p>Há dois parâmetros para essa tag: <strong><code>rtl ou ltr</code></strong></p>
+    <strong><p>RTL &rarr; Da direita à esquerda</p></strong>
+    <strong><p>LTR &rarr; Da esquerda à direita</p></strong>
+    <br>
+    <p>Exemplo RTL:</p>
+    <p><bdo dir="rtl">Meu nome é Gabriel, eu estou ficando mais forte!</bdo></p>
+    <br>
+    <hr>
+</body>
+</html>
+</body>
+</html>

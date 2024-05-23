@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemento Picture</title>
+    <link rel="shortcut icon" href="https://hermes.dio.me/articles/cover/1ee9c50a-fccd-4ec8-b57a-6a592a157a6d.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simpliesmente aumente e diminua o tamanho do seu navegador.</p>
+    <p>Usaremos <strong>a tag &lt; picture &gt; &lt;picture&gt;</strong> porque ela permite colocarmos imagens, mas também permite a criação de muitos <strong>sources</strong> dentro dela, ajudando na responsavidade do seu site.</p>
+    <hr>
+    <br>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="./Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="./Imagens/foto-m.png" type="image/png">
+        <img src="./Imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+
+    <br>
+    <hr>
+
+    <h2>Explicação:</h2>
+    <p>Dentro tag picture há um nível hierárquico das coisas, por exemplo, colamos a imagem a ser carregada por padrão e acima dela, as exceções de tamanho. Isso é, vamos falando que o tamanho máximo de tela x, carregue a imagem x, para tamanho y, carregue a imagem y.</p>
+    <br>
+    <strong><code>&lt; picture &gt;
+    <pre>
+        &lt;source media="(max-width: 750px)" srcset="foto-p.png" type="image/png">
+        &lt;source media="(max-width: 1050px)" srcset="foto-m.png" type="image/png">
+        &lt; img src="foto-g.png" alt="imagem flexível">
+    </pre>
+    &lt;picture&gt;</code></strong>
+
+    <p>Veja que ali na lista acima, deixamos o primeiro tipo de imagem a ser carregado pelo tamanho máximo da tela. <br>
+       Depois, colocamos os tamanhos médios, que são de telas até 1050 px, que carregar a imagem media. <br>
+       E por fim, para telas acima de 1000px, carregamos as imagens grandes.</p> 
+    
+    <h2>Outro exemplo, mas agora pessoal:</h2>
+
+    <picture>
+
+        <!--Regra pra quando a tela for de até 750px-->
+        <source media="(max-width: 750px)" srcset="./Imagens/bwm-p.png" type="image/png">
+
+        <!--Refra pra quando a tela for no máximo até 1050px-->
+        <source media="(max-width: 1050px)" srcset="./Imagens/bwm-m.png" type="image/png">
+        
+        <!--Refra pra quando a tela for no máximo até 2050px-->
+        <source media="(max-width: 2050px)" srcset="./Imagens/bwm-g.png" type="image/png">
+
+        <!--Refra pra quando a tela for no maior que 2050px-->
+        <img src="https://images3.alphacoders.com/110/1103992.jpg" alt="imagem de uma bwm m3 verde">
+    </picture>
+
+    <p>Repare que nós colocamos 4 tamanhos, um pequeno, médio, grande e enorme. Abra o código e veja ceritnho.</p>
+
+
+</body>
+</html>

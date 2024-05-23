@@ -1,0 +1,43 @@
+CONTINUAÇÃO DA AULA ANTERIOR:
+
+Você só consegue acessar os arquivos de HTML e CSS através de um servidor, não há como acessar um arquivo na máquina pessoal de alguém por meio do DNS.
+
+A URL é a ponte entre você e o destino de acesso. É ela quem jogamos no servidor DNS que retorna para nós o IP do servidor de serviços que queremos acessar.
+A primeira coisa que nós precisamos para disponibilizar acesso às pessoas é um Domínio e um servidor (da pra fazer em casa mas é perigoso.), o nome disso é Hospedagem.
+
+	DOMÍNIO: Nome que identiica o seu site: 
+	HOSPEDAGEM: Onde o seu site está armazenado.
+	O domínio é único, não há duplicidade.
+
+
+Sobre o domínio:
+	Possui um nome único	
+	É pago anualmente
+	TLD (Top Level Domain)
+	
+
+Sobre a hospedagem:
+	Espaço para armazenar arquivos
+	Pago mensalmente
+	Espaço, memória, Recursos
+	(Quais são os recursos disponíveis para você, como a linguagem aceita, se tem e-mails)
+
+_________________________________________________________________________________________________________________________________________________
+
+OLHE A SEGUINTE URL (Uniforme Resorce Location → Localizador de recurso único). Serve para apontar um só lugar;
+	→ WWW.GITHUB.COM/Gustavoguanabara
+
+	"WWW.GITHUB.COM" → é o domínio
+
+	O "/Gustavoguanabara" é a URL
+
+	O ".COM" é o TLD (Top Level Domain)
+	O .com, .info, .gov, .store é chamado de GTLD O "G" é de genérico
+
+	Temos também o CCTLD → Country Code Top Level Domain é a identificação do país. Como o ".br" no final de alguns sites brasileiros
+
+	Temos também o "www", que é um subdomínio
+
+	E por fim, temos o /alguma coisa que nada mais é do que o caminho para se chegar até uma coisa.
+	
+

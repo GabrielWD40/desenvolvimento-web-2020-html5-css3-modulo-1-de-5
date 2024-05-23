@@ -1,0 +1,16 @@
+@charset "UTF8"; /*Regra geral para o CSS ter compatibilidade com os caracteres UTF8*/
+
+/*As regras tem que vir primeiro no CSS, tudo que for @alguma_coisa, são regras.*/
+
+body{
+    background-color: goldenrod;
+    color: blue;
+    text-align: justify;
+}
+
+h1{
+    color: blueviolet;
+    font-size: 33px;
+    text-align: center;
+}
+

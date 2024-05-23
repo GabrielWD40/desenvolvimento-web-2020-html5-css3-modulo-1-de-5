@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+    <title>ELEMENTO VÍDEO</title>
+</head>
+<body>
+    <h1>Colocando vídeos na nossa página hospedados localmente</h1>
+    <p>Os tipos de vídeos mais compatíveis são: <strong>MP4, WEBM e OGG(OGV).</strong></p>
+    <p><strong>Dica do professor: </strong>sempre que você for hospedar o seu vídeo localmente, NUNCA hospede vídeos com mais de 1080p. Isso pode ser muito custoso pro seu cliente.</p>
+    <br>
+    <hr>
+
+    <p>Para colocarmos um vídeo na nossa página, basta usar a tag <strong>&lt;video&gt; e &lt;/video&gt;.</strong></p>
+    <P>Assim como nas imagens, é interessante que você pegue e coloque alguns parâmetros no seu vídeo.</P>
+    <P>Além disso, é <strong>RECOMENDADO que você coloque todos os formatos de vídeo no seu site, para que a compatibilidade seja a maior possível.</strong></P>
+    <p><strong>Use o <code>&lt;video controls&gt; e &lt;/video&gt;</code> e lá você coloca as regrinhas, como na imagem responsiva.</strong></P>
+
+    <video width="500px" poster="imagens/thumb.jpg" controls autoplay>
+        <!-- A página vai tentar carregar algum desses tipos de vídeo, na ordem de escrita.-->
+        <source src="midia/limoes.mp4" type="video/mp4">
+        <source src="midia/limoes-convertido.mp4" type="video/mp4">
+        <source src="midia/limoes-webm.webm" type="video/webm">
+        <source src="midia/limoes.ogv" type="video/ogv">
+        <p>Infelizmente, seu navegador não consegue rodar vídeos.<a href="midia/limoes.mp4"> Baixe aqui</a></p>
+    </video>
+    <p><strong>ATENÇÃO: ESSA TÉCNICA ACIMA PODE GERAR MUITOS CUSTOS AO NOSSO CLIENTE.</strong></p>
+
+    <p>Nessa aula, nós vimos os seguintes atributos dentro do elemento vídeo:</p>
+    <ul>
+        <li><strong>poster=""</strong> - essa tag coloca uma thumb no seu vídeo.</li>
+        <li><strong>controls</strong> - essa tag permite que controlemos o vídeo. Sem ela, não tem como visualizar o vídeo.</li>
+        <br>
+        <code>
+            &lt;  video width="500px" poster="imagens/thumb.jpg" controls autoplay &gt; <br>
+                <!-- A página vai tentar carregar algum desses tipos de vídeo, na ordem de escrita.-->
+                &lt;source src="midia/limoes.mp4" type="video/mp4"&gt; <br>
+                &lt; source src="midia/limoes-convertido.mp4" type="video/mp4"&gt; <br>
+                &lt; source src="midia/limoes-webm.webm" type="video/webm"&gt; <br>
+                &lt; source src="midia/limoes.ogv" type="video/ogv"&gt; <br>
+                &lt; p>Infelizmente, seu navegador não consegue rodar vídeos. &lt;a href="midia/limoes.mp4"> Baixe aqui&lt;/a&gt;&lt;/p&gt; <br>
+            &lt; /video &gt;
+        </code>
+    </ul>
+
+    <p>Alguns parâmetros são como no elemento áudio, da aula passada, eles têm a mesma função.</p>
+</body>
+</html>

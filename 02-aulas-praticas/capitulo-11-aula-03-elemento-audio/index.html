@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Elemento áudio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>REPRODUZINDO ÁUDIO</h1>
+    <p>Vamos aprender a reproduzir um áudio em HTML.</p>
+    
+    <h2>Primeira maneira:</h2>
+    
+    <p>Utilizando a tag <strong>&lt;audio src="caminho do arquivo"&gt; &lt;/audio&gt; com parâmetro <mark>'autoplay'</mark></strong></p>
+    <p>Quando você digita <strong>&lt;audio&gt; src="midia/hensonn-flare.mp3" <mark>autoplay</mark>  &lt;/audio&gt;</strong>, seu navegador começará a tocar a mídia no Instante em que ele for aberto.</p>
+    
+    <audio src="midia/hensonn-flare.mp3" controls></audio><br> <!--pra começar a tocar sozinho, coloque autoplay-->
+    <p>Mas vou deixar desativado senão, essa porra não para de tocar. Tirando autoplay vc controla o time, desde que o parâmetro 'controls' tenha sido informado.</p>
+    <hr>
+    <br>
+
+    <p>Utilizando a tag <strong>&lt;audio&gt; &lt;/audio&gt; com parâmetro <mark>'controls'</mark></strong></p>
+    <p>Quando você digita <strong>&lt;audio&gt; src="midia/musica.mp3" <mark>controls</mark>  &lt;/audio&gt;</strong>, seu navegador deixará um cursos que possibilita controlar a desenvoltura da mídia pelo navegador.</p>
+    
+    <audio src="midia/musica.m4a" controls></audio>
+    <hr>
+    <br>
+
+    <h2>Segunda maneira: </h2>
+    <p>Utilizando a tag <br>
+        <strong>&lt;audio &gt;
+            <pre>
+            src="" type="audio/mpeg"
+            src="" type="audio/ogg"
+            src="" type="audio/wav"
+            Infelizmente, seu navegador não reproduz áudio. <a href="midia/musica.m4a">Baixe o arquivo clicando aqui.</a>
+            </pre>
+        &lt;/audio&gt; </strong>
+    </p>
+
+    <p>Esse método serve para quando o navegador não é compatível com algum dos formatos de áudio mp3, ogg e wav. Aí o navegador vai tentando jogar cada tipo, primeiro mp3, depois ogg e por fim, wav.</p>
+    <hr>
+    <br>
+
+    <h2>Nessa aula vimos alguns parâmetros importantes:</h2>
+    <ul type="square">
+        <li><mark>autoplay</mark> - ela toca o áudio sozinha a partir do carregamento da página</li>
+        <li><mark>controls</mark> - te permite controlar a mídia, quando começa e quado termina, o volume do som...</li>
+        <li><mark>Audio com source´s</mark> - possibilita que o navegdor escolha quais tipos de áudio o navegador rodará em caso de imcompatibilidade.</li>
+        <li><mark style="background-color:aquamarine">preload=" possui três parâmetros"</mark>
+            <ol>
+                <li><strong>auto -</strong> é o padrão, pois ele só vai considerar que o site terminou de carregar depois que o áudio carregou. Isso pode deixar tudo lento. Pois os arquivos em áudio podem ser pesados.</li>
+                <li><strong>metadata -</strong> carrega os dados nomes do arquivo, daa, duração. São os metadados do áudio!</li>
+                <li><strong>none - </strong>Não vai carregar nada, só quando o usuário apertar no play. </li>
+            </ol>
+        </li>
+        <li><mark>Loop</mark> - Quando a música chega ao final, ela repete.</li>
+    </ul>
+    <h2>Atenção: arquivos wav são muito pesados, cuidado ao usar! Qualidade é em arquivos de download. Otimize tudo!</h2>
+
+
+</body>
+</html>

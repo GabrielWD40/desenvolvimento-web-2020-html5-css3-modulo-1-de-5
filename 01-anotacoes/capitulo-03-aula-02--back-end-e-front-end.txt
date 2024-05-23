@@ -1,0 +1,22 @@
+Hoje falaremos sobreFront-end, Back-end, full-stack
+
+
+	Basicamente em aplicações mais simples, o que chamamos de SITES-ESTÁTICOS (que não mudam para usuários), o servidor irá disponibilizar uma cópia dos arquivos o HTML, O CSS e o Java Script aos clientes. O resultado é o mesmo para todos os usuários!
+
+
+	Essas três tecnologias que vão funcionar do lado do cliente são chamadas de 'client-side'. Elas são tecnologias focado na experiência no usuário e que irão funcionar para o lado de quem estiver acessando o site. O mercado chama o profissional dessa área de 'front-end'. 
+	Desenvolvedores Front-end irão desenvolver aplicações voltadas para o lado do cliente, essa área se apega muito a designin e afins. É necessário que esse profissional tenha algumas noções básicas sobre tipologia das cores, como ediar uma imagem, mas nada muito complexo!
+
+	
+	Mas também existem tecnologias que são funcionais para os servidores onde essas aplicações estão armazenadas. O nome dado a esse tipo de aplicação é 'server-side'. Profissionais que trabalham com isso são chamados de desenvolvedores 'back-end'. Esses serviços irão rodar somente no servidor porque são focados na relação de como os códigos gerados impactam o servidor. Alguns exemplos são: NODEjs, Java, Python, C#, ruby, o PHP e entre outras.
+
+
+O profissional que consegue conciliar essas duas tecnologias é chamado de full-stack!
+____________________________________________________________________________________________________________________________________________
+
+
+
+
+
+
+

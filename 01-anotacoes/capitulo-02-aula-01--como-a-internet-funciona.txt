@@ -1,0 +1,42 @@
+Como os dados são representados no computador??
+
+O computador é um equipamento eletrônico que funciona com sinais representados por 0 e 1.
+O conjuto 0 e 1 são chamados de digitos binários, chamados de Bit.
+
+Pra você conseguir representar algum dado é necessário no mínimo um conjunto de 8 bits, que chamamos de Byte.
+
+Por exemplo, quando digitamos a letra A, o computador não entende assim, é gerado um código multibyte para fazer a representação dessas letras.
+
+0 e 1 são dois estados de onda, ondas quadradas.
+
+
+MULTIPLOS DE BYTE:
+
+A cada 1024 Bytes → temos 1 KB (Kilobyte)
+A cada 1024 KB → temos 1 MB 
+A cada 1024 MB → temos 1 GB
+A cada 1024 GB → temos 1 TB
+
+
+
+A diferença entre MB e Mb:
+    MB é referente a armazenamento, a quantidade de bytes.
+    Mb é referente a transmissção, é a quantidade de Bits.
+
+
+Como é feita a nossa conexão com a internet?
+Nós, que estamos querendo navegar somos chamados de cliente, porque estamos usando algum serviço.
+
+Módulação: O modem converte as ondas quadradas do PC para ondas senoidais.
+Demodulação: O Modem converte as ondas senoidais em ondas quadradas para que o PC compreenda o que foi dito.
+
+A função de um moden é fazer modulação e demodulação, POR ISSO O NOME MODEM! MO → MODULAÇÃO + DEM → DEMODULAÇÃO.
+
+A nossa máquina e a que possui um serviço da qual nós queremos acessar possuem um número de identificação, o IP. 
+E esse endereço IP está sempre mudando, por isso é impossível decorar. É por isso que a internet possui meio que uma agenda eletrônica, o DNS.
+SISTEMA DE NOME DE DOMÍNIO → DNS
+
+Toda vez que você acessa um site pelo nome, você está enviando para o servidor DNS quem tem aquele nome, depois disso o servidor te devolve o endereço IP daquela rede. Ou seja, ela sai perguntando pro servidor qual o número daquele nome de domínio. Por isso a ideia de agenda!
+
+A internet funciona por meio de rotas: 
+    Que nada mais são do que caminhos percorridos até que a informação chegue até você. As vezes uma infomraão pode percorrer diferentes rotas.

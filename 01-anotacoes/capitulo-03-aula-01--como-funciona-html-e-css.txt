@@ -1,0 +1,116 @@
+
+    → COMO FUNCIONAM A HTML E AS CSS?
+	HTML e CSS não são linguagens de programação! O certo é "Eu desenvolvo em HTML e CSS"
+	
+    HTML → HYPERTEXT MARKUP LANGUAGE → (Linguagem de marcação para hipertexto)
+    CSS → CASCADING STYLE SHEETS → (Folhas de estilo em cascata)
+
+
+Pra quê elas servem?
+
+	HTML → SERVE PARA O CONTEÚDO DA SUA PÁGINA.
+		TEXTO
+		IMAGEM
+		VÍDEO
+		TABELAS
+		LISTAS
+		* Tudo que estiver elementos
+	
+	CSS → Foco em Designin
+		CORES
+		TAMANHOS
+		SOMBRAS
+		POSICIONAMENTO
+		* Deixa o site bonito
+
+	JS Java Script
+		Faz a interação do seu site
+		Menus interativos
+		Pop ups
+		Validações
+
+
+Uma maneira legal de nós percebermos essas diferenças é usar a extensão "Web Developer", que possibilita desativar o CSS, o JS
+_____________________________________________________________________________________________________________________________________________________________________________________________
+
+EM HTML, nós trazemos o conteúdo através das <Tags>conteúdo</tag>, a maioria das tags que foram abertas também precisam ser fechadas.
+
+Algumas tags possuem parâmetros e valor, como a tag <img> 
+
+		 valor   valor
+		   ↑      ↑ 
+	<IMG Src=" " alt=" ">
+	      ↓	      ↓
+	→ parametro  parametro
+
+
+
+EM CSS, nós usamos seletores. Toda declaração precisa ter um ' ; ' no final, é obrigatório.
+Colocamos o nome da tag e abrimos chaves, ex:
+
+h1{
+ color: blue
+ font-familly: arial
+ font-size: 20pt
+
+
+	Nesses casos temos o 'color', QUE SERIA A PROPRIEDADE
+	A cor 'blue' que seria o VALOR
+
+	O conjunto desses códigos todos são chamados de declaração.
+}
+_____________________________________________________________________________________________________________________________________________________________________________________________
+
+Agora, vamos falar da estrutura básica do HTML
+
+Na primeira linha nós colocamos a TAG <!DOCTYPE html> → para indicar que a versão do html é a versão 5;
+
+	<!DOCTYPE html>
+	<html lang="pt-br">
+		<head>
+		
+			*Aqui é onde é o cabeçalho da nossa página, onde nós declaramos as metatags*
+			
+			<meta charset="UTF8"> → Vai possibilitar que o seu site tenha caracteres especiais.
+
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"> → Vai possibilitar abrir o site em 100%
+
+			<title>TÍTULO DA PÁGINA</title> → É onde vai o título da nossa página;
+
+
+		</head>
+
+		<body>
+
+		</body>
+
+	<\html>
+
+_____________________________________________________________________________________________________________________________________________________________________________________________
+
+
+Basicamente, quando acessamos um site é disponibilizado por um servidor nós recemos uma cópia da aplicação na nossa máquina e os navegadores são os resposáveis por interpretar linha a linha do nosso código e gerar um resultado visual.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
